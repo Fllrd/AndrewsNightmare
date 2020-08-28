@@ -73,7 +73,7 @@ public class Zombie extends Enemy {
 	
 	public void update() {
 		
-		// check if done flinching
+		// check if done flinchin
 		if(flinching) {
 			flinchCount++;
 			if(flinchCount == 6) flinching = false;

@@ -135,15 +135,7 @@ public class Level1State extends GameState {
 
 	private void populateEnemies() {
 		enemies.clear();
-		/*Tengu t = new Tengu(tileMap, player, enemies);
-		t.setPosition(1300, 100);
-		enemies.add(t);
-		t = new Tengu(tileMap, player, enemies);
-		t.setPosition(1330, 100);
-		enemies.add(t);
-		t = new Tengu(tileMap, player, enemies);
-		t.setPosition(1360, 100);
-		enemies.add(t);*/
+
 		Slime Sli;
 		Bat B;
 		
@@ -419,7 +411,7 @@ public class Level1State extends GameState {
 			PlayerSave.setHealth(player.getHealth());
 			PlayerSave.setLives(player.getLives());
 			PlayerSave.setTime(player.getTime());
-			gsm.setState(GameStateManager.LEVEL1BSTATE);
+			gsm.setState(GameStateManager.Level2State);
 		}
 		
 	}

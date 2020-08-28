@@ -10,7 +10,7 @@ import javax.imageio.ImageIO;
 import com.fllrd.Handlers.Keys;
 import com.fllrd.Main.GamePanel;
 
-public class AcidState extends GameState {
+public class CompletedState extends GameState {
 	
 	private float hue;
 	private Color color;
@@ -18,7 +18,7 @@ public class AcidState extends GameState {
 	private double angle;
 	private BufferedImage image;
 	
-	public AcidState(GameStateManager gsm) {
+	public CompletedState(GameStateManager gsm) {
 		super(gsm);
 		try {
 			image = ImageIO.read(

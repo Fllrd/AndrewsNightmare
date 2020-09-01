@@ -1,47 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88c079cb-fb0a-4170-9149-dd8ebe11bc51" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/HUD/HageonTemple.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/HUD/IntroCard.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Maps/level1.map" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Maps/level1.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Sprites/Enemies/Bat.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Sprites/Enemies/Bat.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Sprites/Player/Teleport.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Sprites/Player/Teleport.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/HUD/HageonTemple.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/META-INF/AndrewsNightmare.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/META-INF/Artifact.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Maps/level1a.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Maps/level1b.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Maps/level1c.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Sprites/Enemies/Gazer.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Sprites/Enemies/GelPop.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Sprites/Enemies/Tengu.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Tilesets/firetileset.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Tilesets/grasstileset.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/fllrd/Entity/Enemies/Bat.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/fllrd/Entity/Enemies/Bat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/fllrd/Entity/MapObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/fllrd/Entity/MapObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/fllrd/GameState/AcidState.class" beforeDir="false" />
+    <list default="true" id="e466611b-56ee-45c3-9ac3-9241764f74e5" name="Default Changelist" comment="Presentation preperation">
+      <change beforePath="$PROJECT_DIR$/bin/com/fllrd/Entity/Spirit.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/fllrd/Entity/Spirit.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/com/fllrd/GameState/GameStateManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/fllrd/GameState/GameStateManager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/com/fllrd/GameState/Level1State.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/fllrd/GameState/Level1State.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/fllrd/GameState/Level2State.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/fllrd/GameState/Level2State.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/fllrd/GameState/Level3State.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/fllrd/GameState/Level3State.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/fllrd/GameState/MenuState.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/fllrd/GameState/MenuState.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/fllrd/Handlers/Content.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/fllrd/Handlers/Content.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/fllrd/Main/GamePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/fllrd/Main/GamePanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/fllrd/Entity/Enemies/Bat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fllrd/Entity/Enemies/Bat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/fllrd/Entity/MapObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fllrd/Entity/MapObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/fllrd/Entity/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fllrd/Entity/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/fllrd/Entity/Spirit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fllrd/Entity/Spirit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/fllrd/GameState/CompletedState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fllrd/GameState/CompletedState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/fllrd/GameState/GameStateManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fllrd/GameState/GameStateManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/fllrd/GameState/Level1State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fllrd/GameState/Level1State.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/fllrd/GameState/Level2State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fllrd/GameState/Level2State.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/fllrd/GameState/Level3State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fllrd/GameState/Level3State.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/fllrd/Entity/Enemies/Zombie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fllrd/Entity/Enemies/Zombie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/fllrd/GameState/MenuState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fllrd/GameState/MenuState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/fllrd/Handlers/Content.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fllrd/Handlers/Content.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/fllrd/Main/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fllrd/Main/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/fllrd/Main/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fllrd/Main/GamePanel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,6 +95,11 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Merge branch 'master' of https://github.com/Fllrd/AndrewsNightmare&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;Resources/Maps/level1.map&#10;#&#9;bin/com/fllrd/GameState/GameStateManager.class&#10;#&#9;bin/com/fllrd/GameState/Level1State.class&#10;#&#9;bin/com/fllrd/GameState/Level2State.class&#10;#&#9;bin/com/fllrd/GameState/MenuState.class&#10;#&#9;src/com/fllrd/GameState/GameStateManager.java&#10;#&#9;src/com/fllrd/GameState/Level3State.java" />
+    <MESSAGE value="Presentation preperation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Presentation preperation" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598137513007">
       <screen x="0" y="0" width="1366" height="728" />
@@ -139,34 +109,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="479" y="223" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1598230489278" />
-    <state x="290" y="0" key="CommitChangelistDialog2" timestamp="1598579021767">
+    <state x="290" y="0" key="CommitChangelistDialog2" timestamp="1598942608618">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="290" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1598579021767" />
+    <state x="290" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1598942608618" />
     <state x="463" y="90" key="FileChooserDialogImpl" timestamp="1598227358751">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="90" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1598227358751" />
-    <state width="1350" height="168" key="GridCell.Tab.0.bottom" timestamp="1598928928369">
+    <state width="1367" height="186" key="GridCell.Tab.0.bottom" timestamp="1598942608676">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1350" height="168" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598928928369" />
+    <state width="1367" height="186" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598942608676" />
     <state width="1367" height="185" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1598288813351" />
-    <state width="1350" height="168" key="GridCell.Tab.0.center" timestamp="1598928928369">
+    <state width="1367" height="186" key="GridCell.Tab.0.center" timestamp="1598942608676">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1350" height="168" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598928928369" />
+    <state width="1367" height="186" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598942608676" />
     <state width="1367" height="185" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1598288813350" />
-    <state width="1350" height="168" key="GridCell.Tab.0.left" timestamp="1598928928369">
+    <state width="1367" height="186" key="GridCell.Tab.0.left" timestamp="1598942608676">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1350" height="168" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598928928369" />
+    <state width="1367" height="186" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598942608676" />
     <state width="1367" height="185" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1598288813349" />
-    <state width="1350" height="168" key="GridCell.Tab.0.right" timestamp="1598928928369">
+    <state width="1367" height="186" key="GridCell.Tab.0.right" timestamp="1598942608676">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1350" height="168" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598928928369" />
+    <state width="1367" height="186" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598942608676" />
     <state width="1367" height="185" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1598288813350" />
+    <state x="395" y="80" key="MultipleFileMergeDialog" timestamp="1598942566883">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="395" y="80" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1598942566883" />
     <state x="184" y="10" key="SettingsEditor" timestamp="1598228066325">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

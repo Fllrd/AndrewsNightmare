@@ -38,7 +38,7 @@ public class Level2State extends GameState {
 	private ArrayList<Explosion> explosions;
 	
 	private HUD hud;
-	private BufferedImage hageonText;
+	private BufferedImage IntroText;
 	private Title title;
 
 	private Teleport teleport;
@@ -94,10 +94,10 @@ public class Level2State extends GameState {
 		
 		// title
 		try {
-			hageonText = ImageIO.read(
-				getClass().getResourceAsStream("/HUD/HageonTemple.gif")
+			IntroText = ImageIO.read(
+				getClass().getResourceAsStream("/HUD/IntroCard.gif")
 			);
-			title = new Title(hageonText.getSubimage(0, 0, 178, 20));
+			title = new Title(IntroText.getSubimage(0, 0, 178, 20));
 			title.sety(60);
 
 		}
@@ -326,7 +326,7 @@ public class Level2State extends GameState {
 		tileMap.setShaking(false, 0);
 		eventStart = true;
 		eventStart();
-		title = new Title(hageonText.getSubimage(0, 0, 178, 20));
+		title = new Title(IntroText.getSubimage(0, 0, 178, 20));
 		title.sety(60);
 	}
 	
@@ -407,7 +407,7 @@ public class Level2State extends GameState {
 			PlayerSave.setHealth(player.getHealth());
 			PlayerSave.setLives(player.getLives());
 			PlayerSave.setTime(player.getTime());
-			gsm.setState(GameStateManager.LEVEL1CSTATE);
+			gsm.setState(GameStateManager.Level3State);
 		}
 		
 	}

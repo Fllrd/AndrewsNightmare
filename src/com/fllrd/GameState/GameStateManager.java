@@ -13,10 +13,10 @@ public class GameStateManager {
 	
 	public static final int NUMGAMESTATES = 16;
 	public static final int MENUSTATE = 0;
-	public static final int LEVEL1ASTATE = 2;
-	public static final int LEVEL1BSTATE = 3;
-	public static final int LEVEL1CSTATE = 4;
-	public static final int ACIDSTATE = 15;
+	public static final int Level1State = 2;
+	public static final int Level2State = 3;
+	public static final int Level3State  = 4;
+	public static final int CompleteState = 15;
 	
 	public GameStateManager() {
 		
@@ -35,14 +35,14 @@ public class GameStateManager {
 	private void loadState(int state) {
 		if(state == MENUSTATE)
 			gameStates[state] = new MenuState(this);
-		else if(state == LEVEL1ASTATE)
+		else if(state == Level1State)
 			gameStates[state] = new Level1State(this);
-		else if(state == LEVEL1BSTATE)
+		else if(state == Level2State)
 			gameStates[state] = new Level2State(this);
-		else if(state == LEVEL1CSTATE)
+		else if(state == Level3State)
 			gameStates[state] = new Level3State(this);
-		else if(state == ACIDSTATE)
-			gameStates[state] = new AcidState(this);
+		else if(state == CompleteState)
+			gameStates[state] = new CompletedState(this);
 	}
 	
 	private void unloadState(int state) {

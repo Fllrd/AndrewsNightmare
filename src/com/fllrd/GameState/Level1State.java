@@ -17,7 +17,6 @@ import com.fllrd.Entity.Player;
 import com.fllrd.Entity.PlayerSave;
 import com.fllrd.Entity.Teleport;
 import com.fllrd.Entity.Title;
-import com.fllrd.Entity.Enemies.Bat;
 import com.fllrd.Entity.Enemies.Slime;
 import com.fllrd.Handlers.Keys;
 import com.fllrd.Main.GamePanel;
@@ -38,7 +37,7 @@ public class Level1State extends GameState {
 	private ArrayList<Explosion> explosions;
 	
 	private HUD hud;
-	private BufferedImage hageonText;
+	private BufferedImage IntroText;
 	private Title title;
 	private Teleport teleport;
 	
@@ -100,10 +99,10 @@ public class Level1State extends GameState {
 		
 		// title
 		try {
-			hageonText = ImageIO.read(
-				getClass().getResourceAsStream("/HUD/HageonTemple.gif")
+			IntroText = ImageIO.read(
+				getClass().getResourceAsStream("/HUD/IntroCard.gif")
 			);
-			title = new Title(hageonText.getSubimage(0, 0, 178, 20));
+			title = new Title(IntroText.getSubimage(0, 0, 178, 20));
 			title.sety(60);
 		}
 
@@ -135,17 +134,9 @@ public class Level1State extends GameState {
 
 	private void populateEnemies() {
 		enemies.clear();
-		/*Tengu t = new Tengu(tileMap, player, enemies);
-		t.setPosition(1300, 100);
-		enemies.add(t);
-		t = new Tengu(tileMap, player, enemies);
-		t.setPosition(1330, 100);
-		enemies.add(t);
-		t = new Tengu(tileMap, player, enemies);
-		t.setPosition(1360, 100);
-		enemies.add(t);*/
+
 		Slime Sli;
-		Bat B;
+
 		
 		Sli = new Slime(tileMap, player);
 		Sli.setPosition(1300, 100);
@@ -178,12 +169,7 @@ public class Level1State extends GameState {
 		Sli.setPosition(3000, 100);
 		enemies.add(Sli);
 		
-		B = new Bat(tileMap);
-		B.setPosition(2600, 100);
-		enemies.add(B);
-		B = new Bat(tileMap);
-		B.setPosition(3500, 100);
-		enemies.add(B);
+
 	}
 	
 	public void update() {
@@ -321,10 +307,9 @@ public class Level1State extends GameState {
 		if(Keys.isPressed(Keys.BUTTON4)) player.setCharging();
 	}
 
-///////////////////////////////////////////////////////
-//////////////////// EVENTS
-///////////////////////////////////////////////////////
-	
+
+// EVENTS
+
 	// reset level
 	private void reset() {
 		player.reset();
@@ -335,7 +320,7 @@ public class Level1State extends GameState {
 		tileMap.setShaking(false, 0);
 		eventStart = true;
 		eventStart();
-		title = new Title(hageonText.getSubimage(0, 0, 178, 20));
+		title = new Title(IntroText.getSubimage(0, 0, 178, 20));
 		title.sety(60);
 
 	}
@@ -419,7 +404,7 @@ public class Level1State extends GameState {
 			PlayerSave.setHealth(player.getHealth());
 			PlayerSave.setLives(player.getLives());
 			PlayerSave.setTime(player.getTime());
-			gsm.setState(GameStateManager.LEVEL1BSTATE);
+			gsm.setState(GameStateManager.Level2State);
 		}
 		
 	}

@@ -1,11 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88c079cb-fb0a-4170-9149-dd8ebe11bc51" name="Default Changelist" comment="" />
+    <list default="true" id="88c079cb-fb0a-4170-9149-dd8ebe11bc51" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/HUD/HageonTemple.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/HUD/IntroCard.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Maps/level1.map" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Maps/level1.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Sprites/Enemies/Bat.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Sprites/Enemies/Bat.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Sprites/Player/Teleport.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Sprites/Player/Teleport.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/HUD/HageonTemple.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/META-INF/AndrewsNightmare.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/META-INF/Artifact.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Maps/level1a.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Maps/level1b.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Maps/level1c.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Sprites/Enemies/Gazer.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Sprites/Enemies/GelPop.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Sprites/Enemies/Tengu.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Tilesets/firetileset.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Tilesets/grasstileset.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/fllrd/Entity/Enemies/Bat.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/fllrd/Entity/Enemies/Bat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/fllrd/Entity/MapObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/fllrd/Entity/MapObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/fllrd/GameState/AcidState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/fllrd/GameState/GameStateManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/fllrd/GameState/GameStateManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/fllrd/GameState/Level1State.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/fllrd/GameState/Level1State.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/fllrd/GameState/Level2State.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/fllrd/GameState/Level2State.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/fllrd/GameState/Level3State.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/fllrd/GameState/Level3State.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/fllrd/GameState/MenuState.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/fllrd/GameState/MenuState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/fllrd/Handlers/Content.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/fllrd/Handlers/Content.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/fllrd/Main/GamePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/fllrd/Main/GamePanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/fllrd/Entity/Enemies/Bat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fllrd/Entity/Enemies/Bat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/fllrd/Entity/MapObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fllrd/Entity/MapObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/fllrd/Entity/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fllrd/Entity/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/fllrd/Entity/Spirit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fllrd/Entity/Spirit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/fllrd/GameState/CompletedState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fllrd/GameState/CompletedState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/fllrd/GameState/GameStateManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fllrd/GameState/GameStateManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/fllrd/GameState/Level1State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fllrd/GameState/Level1State.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/fllrd/GameState/Level2State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fllrd/GameState/Level2State.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/fllrd/GameState/Level3State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fllrd/GameState/Level3State.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/fllrd/GameState/MenuState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fllrd/GameState/MenuState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/fllrd/Handlers/Content.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fllrd/Handlers/Content.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/fllrd/Main/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fllrd/Main/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/fllrd/Main/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fllrd/Main/GamePanel.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="UML Sequence" />
+        <option value="UML Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1gTSeAhtzzVUS6IQsggrj22Lr1j" />
   <component name="ProjectViewState">
@@ -14,9 +66,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultPlantUmlFileTemplate" value="UML Class" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -28,53 +85,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="FYPTF" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="FYPTF" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -98,6 +108,22 @@
       <workItem from="1598137189510" duration="4177000" />
       <workItem from="1598144598645" duration="11155000" />
       <workItem from="1598192506853" duration="15422000" />
+      <workItem from="1598223001906" duration="2546000" />
+      <workItem from="1598226144334" duration="608000" />
+      <workItem from="1598226802567" duration="1255000" />
+      <workItem from="1598228119776" duration="1031000" />
+      <workItem from="1598229212328" duration="743000" />
+      <workItem from="1598230330525" duration="17283000" />
+      <workItem from="1598264007996" duration="10442000" />
+      <workItem from="1598386841042" duration="5750000" />
+      <workItem from="1598398247528" duration="6956000" />
+      <workItem from="1598418794685" duration="1645000" />
+      <workItem from="1598578477311" duration="410000" />
+      <workItem from="1598891100635" duration="1342000" />
+      <workItem from="1598892750749" duration="45000" />
+      <workItem from="1598892876603" duration="1213000" />
+      <workItem from="1598894318129" duration="4299000" />
+      <workItem from="1598904015403" duration="20862000" />
     </task>
     <servers />
   </component>
@@ -109,29 +135,104 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1598137513007" />
-    <state width="1350" height="183" key="GridCell.Tab.0.bottom" timestamp="1598214099035">
+    <state x="479" y="223" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1598230489278">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1350" height="183" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598214099035" />
-    <state width="1350" height="183" key="GridCell.Tab.0.center" timestamp="1598214099035">
+    <state x="479" y="223" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1598230489278" />
+    <state x="290" y="0" key="CommitChangelistDialog2" timestamp="1598579021767">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1350" height="183" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598214099035" />
-    <state width="1350" height="183" key="GridCell.Tab.0.left" timestamp="1598214099035">
+    <state x="290" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1598579021767" />
+    <state x="463" y="90" key="FileChooserDialogImpl" timestamp="1598227358751">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1350" height="183" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598214099035" />
-    <state width="1350" height="183" key="GridCell.Tab.0.right" timestamp="1598214099035">
+    <state x="463" y="90" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1598227358751" />
+    <state width="1350" height="168" key="GridCell.Tab.0.bottom" timestamp="1598928928369">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1350" height="183" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598214099035" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1598192559887">
+    <state width="1350" height="168" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598928928369" />
+    <state width="1367" height="185" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1598288813351" />
+    <state width="1350" height="168" key="GridCell.Tab.0.center" timestamp="1598928928369">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1598192559887" />
+    <state width="1350" height="168" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598928928369" />
+    <state width="1367" height="185" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1598288813350" />
+    <state width="1350" height="168" key="GridCell.Tab.0.left" timestamp="1598928928369">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1350" height="168" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598928928369" />
+    <state width="1367" height="185" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1598288813349" />
+    <state width="1350" height="168" key="GridCell.Tab.0.right" timestamp="1598928928369">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1350" height="168" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598928928369" />
+    <state width="1367" height="185" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1598288813350" />
+    <state x="184" y="10" key="SettingsEditor" timestamp="1598228066325">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="10" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1598228066325" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1598904318903">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1598904318903" />
+    <state x="0" y="7" width="136" height="93" key="net.trustx.simpleuml.components.BirdViewFrame" timestamp="1598227923252">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="7" width="136" height="93" key="net.trustx.simpleuml.components.BirdViewFrame/0.0.1366.728@0.0.1366.728" timestamp="1598227923252" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1598193878181">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1598193878181" />
+  </component>
+  <component name="simpleUML.UMLToolWindowPlugin">
+    <General>
+      <option name="birdViewUpdateDelay" value="2000" />
+      <option name="knownFile0" value="file://$PROJECT_DIR$/../ANClassDiagram.suml" />
+      <option name="defaultFileLocation" value="file://$PROJECT_DIR$/.." />
+    </General>
+    <Classdiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="defaultFieldsExpanded" value="false" />
+      <option name="defaultContructorsExpanded" value="false" />
+      <option name="defaultMethodsExpanded" value="false" />
+      <option name="showParameters" value="true" />
+      <option name="showTooltip" value="true" />
+      <option name="showReturnValues" value="true" />
+      <option name="longModifier" value="true" />
+      <option name="implementsBehaviour" value="1" />
+      <option name="extendsBehaviour" value="1" />
+      <option name="compartmentBehaviour" value="1" />
+      <option name="interfaceBackgroundColor" value="-6494306" />
+      <option name="abstractClassBackgroundColor" value="-1580132" />
+      <option name="classBackgroundColor" value="-6508057" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="quickSourceLinkColor" value="-16776961" />
+      <option name="quickDiagramLinkColor" value="-8454144" />
+      <option name="drawDecorations" value="false" />
+      <option name="hideFieldList" value="" />
+      <option name="showFieldList" value="" />
+      <option name="hideConstructorList" value="" />
+      <option name="showConstructorList" value="" />
+      <option name="hideMethodList" value="" />
+      <option name="showMethodList" value="" />
+      <option name="minimumFigureSize" value="0,0" />
+    </Classdiagram>
+    <Dependencydiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="0" />
+    </Dependencydiagram>
+    <Packagediagram>
+      <option name="diagramTitleFont" value="SansSerif,0,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="packageBackgroundColor" value="-4144960" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="2" />
+    </Packagediagram>
   </component>
 </project>

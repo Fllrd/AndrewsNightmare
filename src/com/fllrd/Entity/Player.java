@@ -101,7 +101,7 @@ public class Player extends MapObject {
 		stopSpeed = 1.6;
 		fallSpeed = 0.15;
 		maxFallSpeed = 4.0;
-		jumpStart = -4.8;
+		jumpStart = -4.9;
 		stopJumpSpeed = 0.3;
 		doubleJumpStart = -3;
 		

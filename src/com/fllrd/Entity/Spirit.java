@@ -25,13 +25,12 @@ public class Spirit extends Enemy {
 	// attack pattern
 	private int[] steps = {0, 1, 0, 1, 2, 1, 0, 2, 1, 2};
 	
-	////attacks:
+	//attacks:
 	// fly around throwing dark energy (0)
 	// floor sweep (1)
-	// crash down on floor to create shockwave (2)
-	//// special:
+	// Shockwave(2)
 	// after half hp, create shield
-	// after quarter hp, bullet hell
+	// after quarter hp, Flurry attack
 	
 	private DarkEnergy[] shield;
 	private double ticks;
@@ -48,7 +47,7 @@ public class Spirit extends Enemy {
 		cwidth = 30;
 		cheight = 30;
 		
-		health = maxHealth = 10;
+		health = maxHealth = 5;
 		
 		moveSpeed = 1.4;
 		
@@ -102,9 +101,9 @@ public class Spirit extends Enemy {
 		
 		if(!active) return;
 		
-		////////////
+
 		// special
-		////////////
+
 		if(health <= maxHealth / 2) {
 			if(shield[0] == null) {
 				shield[0] = new DarkEnergy(tileMap);

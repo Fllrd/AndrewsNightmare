@@ -14,6 +14,9 @@ import com.fllrd.Handlers.Keys;
 
 
 @SuppressWarnings("serial")
+
+
+
 public class GamePanel extends JPanel implements Runnable, KeyListener{
 	
 	// dimensions
@@ -59,10 +62,7 @@ public class GamePanel extends JPanel implements Runnable, KeyListener{
 		
 		image = new BufferedImage(WIDTH, HEIGHT, BufferedImage.TYPE_INT_RGB);
 		g = (Graphics2D) image.getGraphics();
-		/*g.setRenderingHint(
-			RenderingHints.KEY_TEXT_ANTIALIASING,
-			RenderingHints.VALUE_TEXT_ANTIALIAS_ON
-		);*/
+
 		
 		
 		running = true;

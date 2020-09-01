@@ -1,6 +1,7 @@
 package com.fllrd.GameState;
 
 import java.awt.Color;
+import java.awt.Font;
 import java.awt.Graphics2D;
 import java.awt.geom.AffineTransform;
 import java.awt.image.BufferedImage;
@@ -10,42 +11,51 @@ import javax.imageio.ImageIO;
 import com.fllrd.Handlers.Keys;
 import com.fllrd.Main.GamePanel;
 
-public class AcidState extends GameState {
+public class CompletedState extends GameState {
 	
-	private float hue;
+
 	private Color color;
+	private Font EndingFont;
+	private Color EndFontColour;
 	
 	private double angle;
 	private BufferedImage image;
 	
-	public AcidState(GameStateManager gsm) {
+	public CompletedState(GameStateManager gsm) {
 		super(gsm);
 		try {
 			image = ImageIO.read(
 			getClass().getResourceAsStream(
 			"/Sprites/Player/PlayerSprites.gif"
 			)).getSubimage(0, 0, 40, 40);
+
+			EndFontColour = Color.RED;
+			EndingFont = new Font("Times New Roman", Font.PLAIN, 20);
+
 		}
-		catch(Exception e) {}
+		catch(Exception e) {
+		e.printStackTrace();
+		}
 	}
 	
 	public void init() {}
 	
 	public void update() {
 		handleInput();
-		color = Color.getHSBColor(hue, 1f, 1f);
-		hue += 0.01;
-		if(hue > 1) hue = 0;
+
 		angle += 0.1;
 	}
 	
 	public void draw(Graphics2D g) {
-		g.setColor(color);
+		g.setColor(Color.black);
 		g.fillRect(0, 0, GamePanel.WIDTH, GamePanel.HEIGHT);
 		AffineTransform at = new AffineTransform();
 		at.translate(GamePanel.WIDTH / 2, GamePanel.HEIGHT / 2);
 		at.rotate(angle);
 		g.drawImage(image, at, null);
+		g.setColor(EndFontColour);
+		g.setFont(EndingFont);
+		g.drawString("You have escaped the Nightmare", 10, 70);
 	}
 	
 	public void handleInput() {

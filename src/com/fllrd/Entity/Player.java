@@ -174,8 +174,7 @@ public class Player extends MapObject {
 	}
 	
 	public int getHealth() { return health; }
-	public int getMaxHealth() { return maxHealth; }
-	
+
 	public void setEmote(int i) {
 		emote = i;
 	}
@@ -208,8 +207,7 @@ public class Player extends MapObject {
 			dashing = true;
 		}
 	}
-	public boolean isDashing() { return dashing; }
-	
+
 	public void setDead() {
 		health = 0;
 		stop();

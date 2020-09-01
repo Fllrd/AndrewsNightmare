@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e466611b-56ee-45c3-9ac3-9241764f74e5" name="Default Changelist" comment="Presentation preperation">
-      <change beforePath="$PROJECT_DIR$/bin/com/fllrd/Entity/Spirit.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/fllrd/Entity/Spirit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/fllrd/GameState/GameStateManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/fllrd/GameState/GameStateManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/fllrd/GameState/Level1State.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/fllrd/GameState/Level1State.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/fllrd/Entity/Enemies/Zombie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fllrd/Entity/Enemies/Zombie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/fllrd/GameState/MenuState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fllrd/GameState/MenuState.java" afterDir="false" />
+    <list default="true" id="e466611b-56ee-45c3-9ac3-9241764f74e5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/fllrd/Audio/GameSound.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/fllrd/Audio/GameSound.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/fllrd/Entity/EnemyProjectile.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/fllrd/Entity/EnemyProjectile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/fllrd/Entity/FireBall.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/fllrd/Entity/MapObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/fllrd/Entity/MapObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/fllrd/Entity/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/fllrd/Entity/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/fllrd/GameState/MenuState.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/fllrd/GameState/MenuState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/fllrd/Audio/GameSound.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fllrd/Audio/GameSound.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/fllrd/Entity/EnemyProjectile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fllrd/Entity/EnemyProjectile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/fllrd/Entity/FireBall.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/fllrd/Entity/MapObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fllrd/Entity/MapObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/fllrd/Entity/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fllrd/Entity/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/fllrd/TileMap/Background.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fllrd/TileMap/Background.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +98,14 @@
       <workItem from="1598894318129" duration="4299000" />
       <workItem from="1598904015403" duration="20862000" />
     </task>
+    <task id="LOCAL-00001" summary="Presentation preperation">
+      <created>1598942699932</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598942699932</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,33 +125,33 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="479" y="223" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1598230489278" />
-    <state x="290" y="0" key="CommitChangelistDialog2" timestamp="1598942608618">
+    <state x="290" y="0" key="CommitChangelistDialog2" timestamp="1598945271580">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="290" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1598942608618" />
+    <state x="290" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1598945271580" />
     <state x="463" y="90" key="FileChooserDialogImpl" timestamp="1598227358751">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="90" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1598227358751" />
-    <state width="1367" height="186" key="GridCell.Tab.0.bottom" timestamp="1598942608676">
+    <state width="1367" height="185" key="GridCell.Tab.0.bottom" timestamp="1598945237198">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="186" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598942608676" />
+    <state width="1367" height="185" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598945237198" />
     <state width="1367" height="185" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1598288813351" />
-    <state width="1367" height="186" key="GridCell.Tab.0.center" timestamp="1598942608676">
+    <state width="1367" height="185" key="GridCell.Tab.0.center" timestamp="1598945237197">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="186" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598942608676" />
+    <state width="1367" height="185" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598945237197" />
     <state width="1367" height="185" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1598288813350" />
-    <state width="1367" height="186" key="GridCell.Tab.0.left" timestamp="1598942608676">
+    <state width="1367" height="185" key="GridCell.Tab.0.left" timestamp="1598945237197">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="186" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598942608676" />
+    <state width="1367" height="185" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598945237197" />
     <state width="1367" height="185" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1598288813349" />
-    <state width="1367" height="186" key="GridCell.Tab.0.right" timestamp="1598942608676">
+    <state width="1367" height="185" key="GridCell.Tab.0.right" timestamp="1598945237198">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="186" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598942608676" />
+    <state width="1367" height="185" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598945237198" />
     <state width="1367" height="185" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1598288813350" />
     <state x="395" y="80" key="MultipleFileMergeDialog" timestamp="1598942566883">
       <screen x="0" y="0" width="1366" height="728" />
@@ -145,6 +161,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="10" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1598228066325" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1598942731906">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1598942731906" />
+    <state x="283" y="112" key="caller.chooser.dialog" timestamp="1598944261234">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="283" y="112" key="caller.chooser.dialog/0.0.1366.728@0.0.1366.728" timestamp="1598944261234" />
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1598904318903">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

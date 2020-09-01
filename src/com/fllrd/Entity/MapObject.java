@@ -87,11 +87,7 @@ public abstract class MapObject {
 		Rectangle r2 = o.getRectangle();
 		return r1.contains(r2);
 	}
-	
-	public boolean contains(Rectangle r) {
-		return getRectangle().contains(r);
-	}
-	
+
 	public Rectangle getRectangle() {
 		return new Rectangle(
 				(int)x - cwidth / 2,
@@ -186,10 +182,7 @@ public abstract class MapObject {
 	public int gety() { return (int)y; }
 	public int getWidth() { return width; }
 	public int getHeight() { return height; }
-	public int getCWidth() { return cwidth; }
-	public int getCHeight() { return cheight; }
-	public boolean isFacingRight() { return facingRight; }
-	
+
 	public void setPosition(double x, double y) {
 		this.x = x;
 		this.y = y;
@@ -209,14 +202,7 @@ public abstract class MapObject {
 	public void setUp(boolean b) { up = b; }
 	public void setDown(boolean b) { down = b; }
 	public void setJumping(boolean b) { jumping = b; }
-	
-	public boolean notOnScreen() {
-		return x + xmap + width < 0 ||
-			x + xmap - width > GamePanel.WIDTH ||
-			y + ymap + height < 0 ||
-			y + ymap - height > GamePanel.HEIGHT;
-	}
-	
+
 	public void draw(java.awt.Graphics2D g) {
 		setMapPosition();
 		if(facingRight) {

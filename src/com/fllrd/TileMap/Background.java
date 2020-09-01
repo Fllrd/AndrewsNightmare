@@ -21,11 +21,7 @@ public class Background {
 	
 	private double xscale;
 	private double yscale;
-	
-	public Background(String s) {
-		this(s, 0.1);
-	}
-	
+
 	public Background(String s, double d) {
 		this(s, d, d);
 	}
@@ -44,46 +40,12 @@ public class Background {
 			e.printStackTrace();
 		}
 	}
-	
-	public Background(String s, double ms, int x, int y, int w, int h) {
-		try {
-			image = ImageIO.read(
-				getClass().getResourceAsStream(s)
-			);
-			image = image.getSubimage(x, y, w, h);
-			width = image.getWidth();
-			height = image.getHeight();
-			xscale = ms;
-			yscale = ms;
-		}
-		catch(Exception e) {
-			e.printStackTrace();
-		}
-	}
-	
+
 	public void setPosition(double x, double y) {
 		this.x = (x * xscale) % width;
 		this.y = (y * yscale) % height;
 	}
-	
-	public void setVector(double dx, double dy) {
-		this.dx = dx;
-		this.dy = dy;
-	}
-	
-	public void setScale(double xscale, double yscale) {
-		this.xscale = xscale;
-		this.yscale = yscale;
-	}
-	
-	public void setDimensions(int i1, int i2) {
-		width = i1;
-		height = i2;
-	}
-	
-	public double getx() { return x; }
-	public double gety() { return y; }
-	
+
 	public void update() {
 		x += dx;
 		while(x <= -width) x += width;
